@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Turbo stuff.
+$(call inherit-product, vendor/turbo/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/turbo/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_vs985
+PRODUCT_NAME := turbo_vs985
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
