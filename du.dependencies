@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "DirtyUnicorns/android_packages_apps_Snap",
+    "target_path": "packages/apps/Snap",
+    "branch":      "m-caf"
+  },
+
+  {
+    "repository": "android_device_lge_g3-common",
+    "target_path": "device/lge/g3-common"
+  }
+]
