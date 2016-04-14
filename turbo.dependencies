@@ -3,7 +3,7 @@
     "repository": "TurboROM-Devices/device_lge_g3-common",
     "target_path": "device/lge/g3-common",
     "remote": "github",
-    "revision": "mm"
+    "branch": "mm"
   }
 ]
 
