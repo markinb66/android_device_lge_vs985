@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/zos_vs985.mk \
+    $(LOCAL_DIR)/aosp_vs985.mk \
     $(LOCAL_DIR)/full_vs985.mk
