@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/zos/common.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/zos/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := zos_vs985
+PRODUCT_NAME := du_vs985
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
